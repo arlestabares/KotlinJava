@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
     private void sumar() {
         int suma = num1 + num2;
         etiResultado.setText("El resulado de la suma es : " + suma);
-        Toast.makeText(this,"El valor de la operacion es = " + suma ,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"El valor de la operacion es  = " + suma ,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"la operacion  de los dos valores devolvio : " + suma ,Toast.LENGTH_LONG).show();
     }
 
     private void restar() {
