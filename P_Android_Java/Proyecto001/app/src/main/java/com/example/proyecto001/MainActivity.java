@@ -57,16 +57,16 @@ public class MainActivity extends AppCompatActivity {
     private void restar() {
         int resta = num1 - num2;
         etiResultado.setText("El resultado de la resta es : " + resta);
+        Toast.makeText(this,"El valor de la operacion es = " + resta ,Toast.LENGTH_LONG).show();
     }
 
     private void multiplicar() {
         int multiplicacion = num1 * num2;
         etiResultado.setText("El resultado de la multiplicacion es : " + multiplicacion);
+        Toast.makeText(this,"El valor de la operacion es = " + multiplicacion,Toast.LENGTH_LONG).show();
     }
 
     private void dividir() {
-
-
         if (num2 > 0) {
 
             int dividir = num1 / num2;
